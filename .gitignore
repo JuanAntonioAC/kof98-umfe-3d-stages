@@ -1,0 +1,21 @@
+# No versionar ISOs ni dumps
+ps2-import/**
+!ps2-import/.gitkeep
+*.iso
+*.7z
+King of Fighters*
+
+# Backups locales grandes
+backups/**
+
+# Logs
+*.log
+vendor/**/install-*.txt
+vendor/out.txt
+vendor/err.txt
+
+# Binarios vendor (opcionales en git; ya están en disco)
+# Descomenta si no quieres trackear el setup de 23MB:
+# vendor/king-of-moves/**/*.exe
+# vendor/king-of-moves/**/*.dll
+# vendor/king-of-moves/**/*.zip
